@@ -1,0 +1,1 @@
+elements : set = {00,0o2,True,'Bob',"bob"}
