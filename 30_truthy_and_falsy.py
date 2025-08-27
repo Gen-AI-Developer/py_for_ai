@@ -197,12 +197,12 @@ print("\n")
 
 # Example 3: Reading input until a non-empty string is provided
 # This example is commented out to avoid blocking execution, but demonstrates the concept.
-# user_name = ""
-# while not user_name:
-#     user_name = input("Please enter your name: ")
-#     if not user_name:
-#         print("Name cannot be empty. Please try again.")
-# print(f"Hello, {user_name}!")
+user_name = ""
+while not user_name:
+    user_name = input("Please enter your name: ")
+    if not user_name:
+        print("Name cannot be empty. Please try again.")
+print(f"Hello, {user_name}!")
 
 # Example 4: Using a flag variable
 is_running = True
